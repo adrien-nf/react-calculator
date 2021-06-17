@@ -6,7 +6,12 @@
     #A7BBC7
     #DA7F8F
 */
-
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Anonymous Pro'), url('fonts/Anonymous_Pro.woff') format('woff');
+}
 
 body, .background {
   background-color: #FAF3F3;
