@@ -35,7 +35,6 @@ export default function Calculator() {
     const pressKey = (key) => {
         if (calculatorText === "WELCOME") {
             setCalculatorText("");
-            return;
         }
         if (key === '=') {
             pressedEqual();
