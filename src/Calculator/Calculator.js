@@ -54,7 +54,7 @@ export default function Calculator() {
         let r = null;
         try {
             r = eval(calculatorText)
-            setCalculatorText(r && r.toString());
+            setCalculatorText((r && r.toString()) || "");
         } catch {
             setCalculatorText("ERROR")
         }
